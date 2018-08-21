@@ -6,7 +6,7 @@
 
 #### 主界面
 
-![mainGUI](.\mainGUI.PNG)
+![mainGUI](./mainGUI.PNG)
 
 
 
