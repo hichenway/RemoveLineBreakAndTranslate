@@ -13,6 +13,7 @@
 #### 详细说明：
 
 **语言选择**：使用回车去除功能和翻译功能时，一定要先进行语言选择，才能得到正确的结果。选择的语言是输入框中对应的语言类别，默认选择为英文。
+
 **回车去除**：对于中文，回车符会被直接去除，而对于英文，回车符会被替换为空格以保证英文单词间的分割。
 
 ![removeLineBreak](https://github.com/hichenway/RemoveLineBreakAndTranslate/blob/master/removeLineBreak.PNG)
@@ -20,8 +21,11 @@
 这里要**注意** 的一点是：因为有时候英文论文中每句结尾单词较长时，会以'-'连接，但实际情况中也会有复合单词包含'-'符，因此'-'可能对应多种情况，在该软件中暂未考虑，使用时请自行注意。
 
 **清空**：清空当前文本框中的内容，以方便再次输入
+
 **复制**：把当前文本框中的内容复制到剪切板
+
 **退出**：关闭程序，为防止手滑误点，点击退出按钮后会弹出提示，确认后退出
+
 **百度翻译**：调用的百度翻译官方api，可以实现英汉互译，但前提是你已进行正确的语言选择。相应实现参考自：[Python3调用百度翻译API，实现实时翻译](https://blog.csdn.net/lcyong_/article/details/79068636)
 
 ![translate](https://github.com/hichenway/RemoveLineBreakAndTranslate/blob/master/translate.PNG)
