@@ -1,6 +1,6 @@
 ### PDF文字复制后的回车换行符去除和谷歌百度英汉翻译
 
-
+**中文博客：**https://hichenway.blog.csdn.net/article/details/81910863
 
 **痛点**： PDF文档文字复制会包括回车符，使得文字粘贴和翻译都不方便，尤其是对于双栏的PDF。
 
